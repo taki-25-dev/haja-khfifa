@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ar" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌸 Flower Bloom</title>
+    <meta name="description" content="Click the button and watch a beautiful flower bloom with stunning animations">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Floating particles background -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Main container -->
+    <div class="container">
+        <!-- Title -->
+        <h1 class="title" id="title">🌺 IBTIHAL</h1>
+        
+
+        <!-- The bloom button -->
+        <button class="bloom-btn" id="bloomBtn">
+            <span class="btn-icon">🌱</span>
+            <span class="btn-text">atkay hna matkhafich</span>
+            <div class="btn-shimmer"></div>
+        </button>
+
+        <!-- Flower container -->
+        <div class="flower-stage" id="flowerStage">
+            <!-- The flower will be generated here by JS -->
+        </div>
+
+        <!-- Reset button (hidden initially) -->
+        <button class="reset-btn" id="resetBtn">
+            <span>🔄 New Flower</span>
+        </button>
+    </div>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
